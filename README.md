@@ -1,7 +1,7 @@
-# 🛡️ Loya EDR
+# 🛡️ Ace EDR
 ### Mini Endpoint Detection & Response (EDR) Engine
 
-Loya EDR is a **lightweight, Python-based Endpoint Detection & Response engine** designed for **security research, Blue Team training, and defensive engineering practice**.
+Ace EDR is a **lightweight, Python-based Endpoint Detection & Response engine** designed for **security research, Blue Team training, and defensive engineering practice**.
 
 It simulates real EDR behavior including **process monitoring, heuristic detection, response actions, GUI visualization, and self-protection mechanisms**.
 
@@ -26,7 +26,7 @@ It simulates real EDR behavior including **process monitoring, heuristic detecti
 
 ## 🧠 Detection Capabilities
 
-Loya EDR detects suspicious behavior using heuristic analysis, including:
+Ace EDR detects suspicious behavior using heuristic analysis, including:
 
 - Abnormal CPU usage
 - Suspicious process names
@@ -53,7 +53,7 @@ You can switch modes easily from the responder configuration.
 
 ## 🧱 Project Architecture
 
-Loya-EDR/
+Ace-EDR/
 ├── core/ # Core EDR logic (agent, detector, responder)
 ├── detection/ # Heuristics and detection rules
 ├── services/ # OS-level services (process, network)
@@ -76,8 +76,8 @@ Loya-EDR/
 ## 📦 Installation
 
 bash
-git clone https://github.com/USERNAME/Loya-EDR.git
-cd Loya-EDR
+git clone https://github.com/USERNAME/Ace-EDR.git
+cd Ace-EDR
 
 python3 -m venv venv
 source venv/bin/activate
