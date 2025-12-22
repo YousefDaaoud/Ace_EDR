@@ -1,173 +1,171 @@
-# 🛡️ Ace EDR
-### Mini Endpoint Detection & Response (EDR) Engine
+🛡️ Ace EDR
+Mini Endpoint Detection & Response (EDR) Engine
+<p align="center"> <strong>Lightweight • Defensive • Research-Driven</strong><br/> Python-based Mini EDR for Blue Team & Security Engineering </p> <p align="center"> <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Linux-Kali%20%7C%20Ubuntu-black?style=for-the-badge"/> <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/> </p>
+📌 Overview
 
-Ace EDR is a **lightweight, Python-based Endpoint Detection & Response engine** designed for **security research, Blue Team training, and defensive engineering practice**.
+Ace EDR is a Python-based Mini Endpoint Detection & Response (EDR) engine built for
+security research, Blue Team training, and defensive engineering practice.
 
-It simulates real EDR behavior including **process monitoring, heuristic detection, response actions, GUI visualization, and self-protection mechanisms**.
+It simulates real-world EDR behavior, including:
 
-> ⚠️ This project is intended for educational and research purposes only.  
-> It is **not** a replacement for commercial EDR solutions.
+Endpoint process monitoring
 
----
+Heuristic-based behavioral detection
 
-## ✨ Key Features
+Automated response actions
 
-- 🔍 **Real-Time Process Monitoring**
-- 🧠 **Heuristic-Based Detection Engine**
-- 🛑 **Response Engine (Monitor / Kill modes)**
-- 🌐 **Network Connection Monitoring**
-- 📁 **File System Monitoring**
-- 🖥️ **Dark Mode GUI (Kali Linux Friendly)**
-- 🔒 **Self-Protection (EDR does not kill itself)**
-- 🧵 **Multi-Threaded Architecture**
-- 📜 **Structured Logging System**
+GUI-based visibility
 
----
+Self-protection mechanisms
 
-## 🧠 Detection Capabilities
+⚠️ Disclaimer
+This project is for educational and research purposes only.
+It is not a replacement for commercial EDR products.
 
-Ace EDR detects suspicious behavior using heuristic analysis, including:
+🎞️ Live Demo (GUI)
+<p align="center"> <img src="gifs/gui-dashboard.gif" width="800"/> </p>
 
-- Abnormal CPU usage
-- Suspicious process names
-- Rapid process spawning
-- Unauthorized network connections
-- Potential abuse tools (e.g. stress tools, reverse shells)
+📁 Replace gifs/gui-dashboard.gif with your actual recorded demo
+(you can record using peek, obs, or byzanz-record)
 
-Detection logic is **fully extensible** via custom heuristics.
+✨ Key Features
 
----
+🔍 Real-Time Process Monitoring
 
-## 🛑 Response Modes
+🧠 Heuristic-Based Detection Engine
 
-The response engine supports two modes:
+🛑 Response Engine (Monitor / Kill Modes)
 
-| Mode | Description |
-|----|----|
-| `MONITOR_ONLY` | Logs detections without terminating processes |
-| `ACTIVE_RESPONSE` | Terminates malicious processes automatically |
+🌐 Network Connection Monitoring
 
-You can switch modes easily from the responder configuration.
+📁 File System Monitoring
 
----
+🖥️ Dark-Mode GUI (Kali Linux Friendly)
 
-## 🧱 Project Architecture
+🔒 Self-Protection Logic
 
+🧵 Multi-Threaded Architecture
+
+📜 Structured Logging System
+
+🧠 Detection Capabilities
+
+Ace EDR identifies suspicious activity using behavioral heuristics, including:
+
+Abnormal or sustained CPU usage
+
+Suspicious or masquerading process names
+
+Rapid process spawning (fork bombs / stress tools)
+
+Unauthorized outbound network connections
+
+Common abuse patterns (DoS tools, reverse shells)
+
+<p align="center"> <img src="gifs/detection-alert.gif" width="800"/> </p>
+
+Detection logic is fully extensible via custom heuristics.
+
+🛑 Response Engine
+
+Ace EDR supports two response modes:
+
+Mode	Description
+MONITOR_ONLY	Logs detections without terminating processes
+ACTIVE_RESPONSE	Automatically terminates malicious processes
+<p align="center"> <img src="gifs/response-kill.gif" width="800"/> </p>
+
+Mode switching is handled via responder configuration.
+
+🧱 Project Architecture
 Ace-EDR/
-├── core/ # Core EDR logic (agent, detector, responder)
-├── detection/ # Heuristics and detection rules
-├── services/ # OS-level services (process, network)
-├── gui/ # PyQt-based dashboard
-├── logs/ # Runtime logs
-├── main.py # Entry point
+├── core/        # Core EDR logic (agent, detector, responder)
+├── detection/   # Heuristics & detection rules
+├── services/    # OS-level services (process, network)
+├── gui/         # PyQt-based dashboard
+├── logs/        # Runtime logs
+├── main.py      # Entry point
 ├── requirements.txt
 └── README.md
 
+⚙️ Requirements
 
----
+Python 3.9+
 
-## ⚙️ Requirements
+Linux OS (Recommended: Kali Linux / Ubuntu)
 
-- Python **3.9+**
-- Linux OS (Recommended: **Kali Linux / Ubuntu**)
-
----
-
-## 📦 Installation
-
-bash
+📦 Installation
 git clone https://github.com/USERNAME/Ace-EDR.git
 cd Ace-EDR
 
 python3 -m venv venv
 source venv/bin/activate
-
 pip install -r requirements.txt
+
 ▶️ Usage
-
-Start the EDR engine:
-
 python3 main.py
 
 
-The GUI and agent will run from a single command.
+The EDR agent and GUI start from a single command.
 
-🧪 Testing Examples
+<p align="center"> <img src="gifs/startup.gif" width="800"/> </p>
+🧪 Testing Scenarios
 
-Generate high CPU activity:
+High CPU activity
 
 yes > /dev/null
 
 
-Spawn a long-running process:
+Long-running process
 
 sleep 1000
 
 
-The EDR should detect and respond accordingly.
+Ace EDR should detect and respond accordingly.
 
 🔐 Security Design Notes
 
-Implements self-protection to prevent killing its own process
+Self-protection prevents terminating the EDR itself
 
-Handles race conditions gracefully (process exits before response)
+Handles race conditions gracefully
 
-Uses safe process termination logic
+Safe process termination logic
 
-Thread-safe design for agent and GUI interaction
+Thread-safe interaction between agent & GUI
 
 📊 Logging
 
-All detections and responses are logged in:
+All detections and response actions are logged to:
 
 logs/edr.log
 
 
-Logs are structured for future SIEM or alerting integration.
+Logs are structured for future SIEM / SOAR integration.
 
-🚧 Future Enhancements
+<p align="center"> <img src="gifs/logging.gif" width="800"/> </p>
+🚧 Roadmap
 
-Machine Learning–based detection
+🤖 Machine Learning–based detection
 
-Threat Intelligence integration
+🌐 Threat Intelligence integration
 
-Process tree visualization
+🌳 Process tree visualization
 
-Systemd service support
+⚙️ Systemd service mode
 
-Alert severity levels
+🚨 Alert severity levels
 
-JSON / API output
+📡 JSON / API output
 
-SOAR integration
+🔄 SOAR integration
 
 📜 License
 
-This project is licensed under the MIT License.
+Released under the MIT License.
 
 👨‍💻 Author
 
 j0h4ck
 Blue Team • Malware Analysis • Defensive Security
 
-Contributions, forks, and improvements are welcome.
-
-
----
-
-## 🏆 Why this README is strong
-✔ Enterprise tone  
-✔ Clear security focus  
-✔ Recruiter-friendly  
-✔ GitHub-ready  
-✔ Blue Team professional style  
-
----
-
-If you want, I can also:
-- ✨ Add GitHub badges (Python, Linux, MIT)
-- ✨ Customize it for **SOC / Blue Team CV**
-- ✨ Make an **Arabic + English version**
-- ✨ Write a killer GitHub repo description
-
-Just tell me 👍
+Contributions, forks, and improvements are welcome 🤝
