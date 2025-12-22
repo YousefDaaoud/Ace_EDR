@@ -1,0 +1,185 @@
+2025-12-22 09:32:10,593 - Baseline captured (340 processes)
+2025-12-22 09:32:10,593 - EDR Agent Started Successfully
+2025-12-22 09:32:10,596 - Started file monitoring on: /tmp
+2025-12-22 09:32:10,764 - Heuristic alert: {'pid': 141461, 'name': 'python3', 'cpu': 90.8}
+2025-12-22 09:32:10,764 - [MONITOR MODE] Would kill process: python3 (141461)
+2025-12-22 09:32:10,781 - New network connection: {'pid': 67686, 'laddr': '192.168.210.148:41634', 'raddr': '142.251.168.188:5228', 'status': 'ESTABLISHED'}
+2025-12-22 09:32:24,285 - [MONITOR MODE] Would kill PID: 141461
+2025-12-22 09:32:34,554 - [MONITOR MODE] Would kill PID: 141461
+2025-12-22 09:36:44,766 - Baseline captured (340 processes)
+2025-12-22 09:36:44,766 - EDR Agent Started Successfully
+2025-12-22 09:36:44,770 - Started file monitoring on: /tmp
+2025-12-22 09:36:44,935 - Heuristic alert: {'pid': 141561, 'name': 'yes', 'cpu': 104.4}
+2025-12-22 09:36:44,936 - [MONITOR MODE] Would kill process: yes (141561)
+2025-12-22 09:36:44,936 - Heuristic alert: {'pid': 143201, 'name': 'python3', 'cpu': 88.7}
+2025-12-22 09:36:44,936 - [MONITOR MODE] Would kill process: python3 (143201)
+2025-12-22 09:36:44,961 - New network connection: {'pid': 67686, 'laddr': '192.168.210.148:42034', 'raddr': '172.64.155.209:443', 'status': 'ESTABLISHED'}
+2025-12-22 09:38:26,528 - Baseline captured (334 processes)
+2025-12-22 09:38:26,528 - EDR Agent Started Successfully
+2025-12-22 09:38:26,532 - Started file monitoring on: /tmp
+2025-12-22 09:38:26,685 - Heuristic alert: {'pid': 141561, 'name': 'yes', 'cpu': 100.5}
+2025-12-22 09:38:26,685 - [MONITOR MODE] Would kill process: yes (141561)
+2025-12-22 09:38:26,685 - Heuristic alert: {'pid': 143855, 'name': 'python3', 'cpu': 94.7}
+2025-12-22 09:38:26,685 - [MONITOR MODE] Would kill process: python3 (143855)
+2025-12-22 09:38:26,705 - New network connection: {'pid': None, 'laddr': '192.168.210.148:68', 'raddr': '192.168.210.1:67', 'status': 'NONE'}
+2025-12-22 09:38:41,511 - File created: /tmp/.com.google.Chrome.svHxc8
+2025-12-22 09:38:41,511 - File modified: /tmp/.com.google.Chrome.svHxc8
+2025-12-22 09:38:41,511 - File deleted: /tmp/.com.google.Chrome.svHxc8
+2025-12-22 09:38:41,521 - File created: /tmp/.com.google.Chrome.BrbHDS
+2025-12-22 09:38:41,521 - File modified: /tmp/.com.google.Chrome.BrbHDS
+2025-12-22 09:38:41,521 - File deleted: /tmp/.com.google.Chrome.BrbHDS
+2025-12-22 09:38:41,621 - File created: /tmp/.com.google.Chrome.vI9Cnk
+2025-12-22 09:38:41,621 - File modified: /tmp/.com.google.Chrome.vI9Cnk
+2025-12-22 09:38:41,621 - File deleted: /tmp/.com.google.Chrome.vI9Cnk
+2025-12-22 09:38:43,599 - File modified: /tmp/.com.google.Chrome.562Lt2
+2025-12-22 09:38:44,830 - File created: /tmp/.com.google.Chrome.oSB4Hs
+2025-12-22 09:38:44,830 - File modified: /tmp/.com.google.Chrome.oSB4Hs
+2025-12-22 09:38:44,831 - File deleted: /tmp/.com.google.Chrome.oSB4Hs
+2025-12-22 09:38:44,923 - File created: /tmp/.com.google.Chrome.tIF3Og
+2025-12-22 09:38:44,923 - File modified: /tmp/.com.google.Chrome.tIF3Og
+2025-12-22 09:38:44,923 - File deleted: /tmp/.com.google.Chrome.tIF3Og
+2025-12-22 09:38:45,599 - File modified: /tmp/.com.google.Chrome.562Lt2
+2025-12-22 09:38:46,237 - File created: /tmp/.com.google.Chrome.la4xoj
+2025-12-22 09:38:46,237 - File modified: /tmp/.com.google.Chrome.la4xoj
+2025-12-22 09:38:46,237 - File deleted: /tmp/.com.google.Chrome.la4xoj
+2025-12-22 09:38:47,195 - File modified: /tmp/.com.google.Chrome.oSB4Hs
+2025-12-22 09:38:47,196 - File modified: /tmp/.com.google.Chrome.oSB4Hs
+2025-12-22 09:38:53,883 - [MONITOR MODE] Would kill PID: 143855
+2025-12-22 09:38:57,548 - [MONITOR MODE] Would kill PID: 141561
+2025-12-22 09:42:28,873 - Baseline captured (338 processes)
+2025-12-22 09:42:28,874 - EDR Agent Started Successfully
+2025-12-22 09:42:28,877 - Started file monitoring on: /tmp
+2025-12-22 09:42:29,085 - Heuristic alert: {'pid': 110455, 'name': 'chrome', 'cpu': 100.5}
+2025-12-22 09:42:29,085 - [MONITOR MODE] Would kill process: chrome (110455)
+2025-12-22 09:42:29,085 - Heuristic alert: {'pid': 141561, 'name': 'yes', 'cpu': 98.4}
+2025-12-22 09:42:29,085 - [MONITOR MODE] Would kill process: yes (141561)
+2025-12-22 09:42:29,085 - Heuristic alert: {'pid': 145551, 'name': 'python3', 'cpu': 93.6}
+2025-12-22 09:42:29,085 - [MONITOR MODE] Would kill process: python3 (145551)
+2025-12-22 09:42:29,109 - New network connection: {'pid': 67686, 'laddr': '192.168.210.148:44698', 'raddr': '172.64.147.188:443', 'status': 'ESTABLISHED'}
+2025-12-22 09:46:15,940 - Baseline captured (332 processes)
+2025-12-22 09:46:15,940 - EDR Agent Started Successfully
+2025-12-22 09:46:15,944 - Started file monitoring on: /tmp
+2025-12-22 09:46:16,155 - Heuristic alert: {'pid': 141561, 'name': 'yes', 'cpu': 98.7}
+2025-12-22 09:46:16,155 - [MONITOR MODE] Would kill process: yes (141561)
+2025-12-22 09:46:16,155 - Heuristic alert: {'pid': 146956, 'name': 'python3', 'cpu': 343.5}
+2025-12-22 09:46:16,155 - [MONITOR MODE] Would kill process: python3 (146956)
+2025-12-22 09:46:16,172 - New network connection: {'pid': 112133, 'laddr': '192.168.210.148:35716', 'raddr': '20.52.64.200:443', 'status': 'ESTABLISHED'}
+2025-12-22 09:46:27,161 - File created: /tmp/.com.google.Chrome.KAVQh4
+2025-12-22 09:46:27,161 - File modified: /tmp/.com.google.Chrome.KAVQh4
+2025-12-22 09:46:27,161 - File deleted: /tmp/.com.google.Chrome.KAVQh4
+2025-12-22 09:46:27,165 - File created: /tmp/.com.google.Chrome.NEUfQc
+2025-12-22 09:46:27,165 - File modified: /tmp/.com.google.Chrome.NEUfQc
+2025-12-22 09:46:27,165 - File deleted: /tmp/.com.google.Chrome.NEUfQc
+2025-12-22 09:46:27,272 - File created: /tmp/.com.google.Chrome.znftkP
+2025-12-22 09:46:27,272 - File modified: /tmp/.com.google.Chrome.znftkP
+2025-12-22 09:46:27,273 - File deleted: /tmp/.com.google.Chrome.znftkP
+2025-12-22 09:49:21,632 - File created: /tmp/.com.google.Chrome.0WkLoT
+2025-12-22 09:49:21,632 - File modified: /tmp/.com.google.Chrome.0WkLoT
+2025-12-22 09:49:21,633 - File deleted: /tmp/.com.google.Chrome.0WkLoT
+2025-12-22 09:49:21,641 - File created: /tmp/.com.google.Chrome.6WxUt1
+2025-12-22 09:49:21,641 - File modified: /tmp/.com.google.Chrome.6WxUt1
+2025-12-22 09:49:21,641 - File deleted: /tmp/.com.google.Chrome.6WxUt1
+2025-12-22 09:49:21,754 - File created: /tmp/.com.google.Chrome.MUSjxy
+2025-12-22 09:49:21,754 - File modified: /tmp/.com.google.Chrome.MUSjxy
+2025-12-22 09:49:21,754 - File deleted: /tmp/.com.google.Chrome.MUSjxy
+2025-12-22 09:49:23,725 - File modified: /tmp/.com.google.Chrome.znftkP
+2025-12-22 09:53:57,561 - Baseline captured (336 processes)
+2025-12-22 09:53:57,561 - EDR Agent Started Successfully
+2025-12-22 09:53:57,565 - Started file monitoring on: /tmp
+2025-12-22 09:53:57,731 - Heuristic alert: {'pid': 141561, 'name': 'yes', 'cpu': 102.4}
+2025-12-22 09:53:57,731 - [MONITOR MODE] Would kill process: yes (141561)
+2025-12-22 09:53:57,731 - Heuristic alert: {'pid': 149908, 'name': 'python3', 'cpu': 387.8}
+2025-12-22 09:53:57,731 - [MONITOR MODE] Would kill process: python3 (149908)
+2025-12-22 09:53:57,759 - New network connection: {'pid': 67686, 'laddr': '192.168.210.148:41634', 'raddr': '142.251.168.188:5228', 'status': 'ESTABLISHED'}
+2025-12-22 09:54:05,544 - [MONITOR MODE] Would kill PID: 141461
+2025-12-22 09:54:12,295 - File created: /tmp/.com.google.Chrome.xJdrR6
+2025-12-22 09:54:12,296 - File modified: /tmp/.com.google.Chrome.xJdrR6
+2025-12-22 09:54:12,296 - File deleted: /tmp/.com.google.Chrome.xJdrR6
+2025-12-22 09:54:12,296 - File created: /tmp/.com.google.Chrome.aJubn7
+2025-12-22 09:54:12,296 - File modified: /tmp/.com.google.Chrome.aJubn7
+2025-12-22 09:54:12,297 - File deleted: /tmp/.com.google.Chrome.aJubn7
+2025-12-22 09:54:12,425 - File created: /tmp/.com.google.Chrome.7pKlmg
+2025-12-22 09:54:12,425 - File modified: /tmp/.com.google.Chrome.7pKlmg
+2025-12-22 09:54:12,425 - File deleted: /tmp/.com.google.Chrome.7pKlmg
+2025-12-22 09:54:14,399 - File modified: /tmp/.com.google.Chrome.MUSjxy
+2025-12-22 09:54:16,400 - File modified: /tmp/.com.google.Chrome.MUSjxy
+2025-12-22 09:54:17,237 - File created: /tmp/.com.google.Chrome.7NGpwN
+2025-12-22 09:54:17,237 - File modified: /tmp/.com.google.Chrome.7NGpwN
+2025-12-22 09:54:17,237 - File deleted: /tmp/.com.google.Chrome.7NGpwN
+2025-12-22 10:09:01,166 - INFO - Baseline captured (338 processes)
+2025-12-22 10:09:01,166 - INFO - EDR Agent Started Successfully
+2025-12-22 10:09:01,169 - INFO - Started file monitoring on: /tmp
+2025-12-22 10:09:01,275 - INFO - Heuristic alert: {'pid': 110455, 'name': 'chrome', 'cpu': 98.1}
+2025-12-22 10:09:01,275 - WARNING - Kill blocked (MONITOR_ONLY).
+2025-12-22 10:09:01,275 - INFO - Heuristic alert: {'pid': 141561, 'name': 'yes', 'cpu': 101.0}
+2025-12-22 10:09:01,275 - WARNING - Kill blocked (MONITOR_ONLY).
+2025-12-22 10:09:01,275 - INFO - Heuristic alert: {'pid': 155711, 'name': 'python3', 'cpu': 425.3}
+2025-12-22 10:09:01,275 - WARNING - Kill blocked (MONITOR_ONLY).
+2025-12-22 10:09:01,390 - INFO - New network connection: {'pid': 67686, 'laddr': '192.168.210.148:55452', 'raddr': '35.211.148.231:443', 'status': 'ESTABLISHED'}
+2025-12-22 10:19:05,925 - INFO - Baseline captured (334 processes)
+2025-12-22 10:19:05,925 - INFO - EDR Agent Started Successfully
+2025-12-22 10:19:05,929 - INFO - Started file monitoring on: /tmp
+2025-12-22 10:19:29,452 - WARNING - Kill blocked (MONITOR_ONLY).
+2025-12-22 10:19:41,471 - INFO - Process killed: PID 110455
+2025-12-22 10:19:45,203 - INFO - File created: /tmp/.com.google.Chrome.1wCw7A
+2025-12-22 10:19:45,203 - INFO - File modified: /tmp/.com.google.Chrome.1wCw7A
+2025-12-22 10:19:45,203 - INFO - File deleted: /tmp/.com.google.Chrome.1wCw7A
+2025-12-22 10:19:45,844 - INFO - File created: /tmp/.com.google.Chrome.pL5h8N
+2025-12-22 10:19:45,844 - INFO - File modified: /tmp/.com.google.Chrome.pL5h8N
+2025-12-22 10:19:45,844 - INFO - File deleted: /tmp/.com.google.Chrome.pL5h8N
+2025-12-22 10:25:10,772 - INFO - Baseline captured (333 processes)
+2025-12-22 10:25:10,772 - INFO - EDR Agent Started Successfully
+2025-12-22 10:25:10,776 - INFO - Started file monitoring on: /tmp
+2025-12-22 10:25:19,022 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:25:30,537 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:25:40,019 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:25:48,397 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:25:56,912 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:26:04,607 - INFO - Baseline captured (334 processes)
+2025-12-22 10:26:04,608 - INFO - EDR Agent Started Successfully
+2025-12-22 10:26:04,612 - INFO - Started file monitoring on: /tmp
+2025-12-22 10:26:07,610 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:26:16,136 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:26:22,350 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:26:31,088 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:26:49,430 - INFO - Baseline captured (335 processes)
+2025-12-22 10:26:49,431 - INFO - EDR Agent Started Successfully
+2025-12-22 10:26:49,434 - INFO - Started file monitoring on: /tmp
+2025-12-22 10:27:41,305 - INFO - Baseline captured (335 processes)
+2025-12-22 10:27:41,305 - INFO - EDR Agent Started Successfully
+2025-12-22 10:27:41,308 - INFO - Started file monitoring on: /tmp
+2025-12-22 10:27:43,707 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:27:52,358 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:31:02,424 - INFO - Baseline captured (333 processes)
+2025-12-22 10:31:02,424 - INFO - EDR Agent Started Successfully
+2025-12-22 10:31:02,428 - INFO - Started file monitoring on: /tmp
+2025-12-22 10:31:02,569 - INFO - Heuristic alert: {'pid': 141561, 'name': 'yes', 'cpu': 96.0}
+2025-12-22 10:31:02,569 - INFO - Heuristic alert: {'pid': 141561, 'name': 'yes', 'cpu': 96.0}
+2025-12-22 10:31:02,569 - INFO - Process killed: PID 141561
+2025-12-22 10:31:02,569 - INFO - Heuristic alert: {'pid': 164026, 'name': 'python3', 'cpu': 100.9}
+2025-12-22 10:31:02,569 - INFO - Heuristic alert: {'pid': 164026, 'name': 'python3', 'cpu': 100.9}
+2025-12-22 10:31:06,759 - INFO - Baseline captured (332 processes)
+2025-12-22 10:31:06,759 - INFO - EDR Agent Started Successfully
+2025-12-22 10:31:06,763 - INFO - Started file monitoring on: /tmp
+2025-12-22 10:31:06,919 - INFO - Heuristic alert: {'pid': 164073, 'name': 'python3', 'cpu': 95.7}
+2025-12-22 10:31:06,919 - INFO - Heuristic alert: {'pid': 164073, 'name': 'python3', 'cpu': 95.7}
+2025-12-22 10:31:10,790 - INFO - Baseline captured (334 processes)
+2025-12-22 10:31:10,790 - INFO - EDR Agent Started Successfully
+2025-12-22 10:31:10,794 - INFO - Started file monitoring on: /tmp
+2025-12-22 10:31:10,969 - INFO - Heuristic alert: {'pid': 164115, 'name': 'python3', 'cpu': 94.0}
+2025-12-22 10:31:10,969 - INFO - Heuristic alert: {'pid': 164115, 'name': 'python3', 'cpu': 94.0}
+2025-12-22 10:35:36,084 - INFO - EDR Agent Started Successfully
+2025-12-22 10:35:41,586 - WARNING - Kill blocked (MONITOR_ONLY).
+2025-12-22 10:35:50,542 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:35:55,284 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:36:04,063 - INFO - EDR Agent Started Successfully
+2025-12-22 10:36:09,066 - WARNING - Failed to kill PID 110455: [Errno 3] No such process
+2025-12-22 10:38:28,738 - INFO - EDR Agent Started Successfully
+2025-12-22 10:38:34,032 - INFO - Process already terminated: PID 110455
+2025-12-22 10:38:46,029 - INFO - Process already terminated: PID 110455
+2025-12-22 10:38:49,111 - INFO - Process already terminated: PID 110455
+2025-12-22 10:40:20,432 - INFO - EDR Agent Started Successfully
+2025-12-22 10:40:20,598 - INFO - Heuristic alert: {'pid': 159736, 'name': 'chrome', 'cpu': 108.3}
+2025-12-22 10:40:20,598 - WARNING - Kill blocked (MONITOR_ONLY).
+2025-12-22 10:41:56,768 - INFO - EDR Agent Started Successfully
+2025-12-22 10:43:55,791 - INFO - EDR Agent Started Successfully

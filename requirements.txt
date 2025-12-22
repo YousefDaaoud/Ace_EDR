@@ -1,0 +1,4 @@
+psutil
+watchdog
+PyQt5
+pyqtgraph
