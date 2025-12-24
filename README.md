@@ -49,19 +49,6 @@ replacement for commercial EDR solutions.
 
 ---
 
-## 🧱 Architecture
-
-Ace-EDR/
-├── core/           Core EDR logic
-├── detection/      Heuristics & rules
-├── services/       System services
-├── gui/            Dashboard interface
-├── logs/           Runtime logs
-├── main.py         Application entry point
-└── requirements.txt
-
----
-
 ## ⚙️ Requirements
 
 - Python 3.9+
